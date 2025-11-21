@@ -35,6 +35,10 @@ Adding `--task translate` will translate the subtitles into English:
 
     auto_subtitle /path/to/video.mp4 --task translate
 
+To customize the appearance of subtitles, you can specify the font size and color:
+
+    auto_subtitle /path/to/video.mp4 --font_size 32 --font_color "&HFFFF00"
+
 Run the following to view all available options:
 
     auto_subtitle --help
